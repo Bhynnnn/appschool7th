@@ -132,11 +132,20 @@ protocol Container {
 }
 
 struct IntStack: Container {
-    typealias Item = Int
+    typealias T = Int
     
     private var items: [Item] = []
     mutating func add(_ item: Item) { items.append(item) }
     var count: Item { items.count }
+}
+
+struct StringStack: Container {
+    typealias T = String
+    private var items: [Item] = []
+    mutating func add(_ item: String) {
+        items.append(item)
+    }
+    var count: Int { items.count }
 }
 
 func printDecription<T: Describable>(_ item: T) {
