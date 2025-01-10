@@ -1,25 +1,14 @@
-//
-//  ContentView.swift
-//  HelloWorld
-//
-//  Created by 강보현 on 1/8/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-            Text("Hello, world!")
-            Text("Hello, world!")
-            HStack {
-                Text("Hello, world!")
-                Text("Hello, world!")
-            }
-            Text("Hello, world!")
+        Text("Hello World")
+            .font(.largeTitle)
+            .border(Color.black)
+            .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity, alignment: .center)
+            .background(Color.blue)
+            .ignoresSafeArea()
 
-        }
     }
 }
 
