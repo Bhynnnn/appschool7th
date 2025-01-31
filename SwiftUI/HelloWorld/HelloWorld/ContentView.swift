@@ -2,12 +2,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
-            .font(.largeTitle)
-            .border(Color.black)
-            .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity, alignment: .center)
-            .background(Color.blue)
-            .ignoresSafeArea()
+        TabView {
+            FirstTabView()
+                .tabItem {
+                    Image(systemName: "airplane")
+                    Text("First")
+                }
+            SecondTabView()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Person")
+                }
+        }
 
     }
 }
@@ -15,3 +21,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+

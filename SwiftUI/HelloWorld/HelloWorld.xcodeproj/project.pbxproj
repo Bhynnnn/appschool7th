@@ -11,6 +11,8 @@
 		074467E82D2E53B7006A722D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074467E72D2E53B7006A722D /* ContentView.swift */; };
 		074467EA2D2E53B9006A722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074467E92D2E53B9006A722D /* Assets.xcassets */; };
 		074467ED2D2E53B9006A722D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074467EC2D2E53B9006A722D /* Preview Assets.xcassets */; };
+		07A920092D349498006C7485 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A920082D349498006C7485 /* FirstTabView.swift */; };
+		07A9200B2D34958E006C7485 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9200A2D34958E006C7485 /* SecondTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		074467E72D2E53B7006A722D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		074467E92D2E53B9006A722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		074467EC2D2E53B9006A722D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07A920082D349498006C7485 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		07A9200A2D34958E006C7485 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				074467E52D2E53B7006A722D /* HelloWorldApp.swift */,
 				074467E72D2E53B7006A722D /* ContentView.swift */,
+				07A920082D349498006C7485 /* FirstTabView.swift */,
+				07A9200A2D34958E006C7485 /* SecondTabView.swift */,
 				074467E92D2E53B9006A722D /* Assets.xcassets */,
 				074467EB2D2E53B9006A722D /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A9200B2D34958E006C7485 /* SecondTabView.swift in Sources */,
 				074467E82D2E53B7006A722D /* ContentView.swift in Sources */,
+				07A920092D349498006C7485 /* FirstTabView.swift in Sources */,
 				074467E62D2E53B7006A722D /* HelloWorldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
